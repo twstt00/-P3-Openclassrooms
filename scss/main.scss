@@ -1,0 +1,42 @@
+@import "abstracts/variables";
+@import "components/buttons";
+@import "layout/footer";
+@import "layout/header";
+@import "layout/menu";
+@import "layout/homepage";
+@import "components/loader";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.fill {
+  color: black;
+  cursor: pointer;
+  &:hover {
+    animation: fill 0.3s ease-in-out;
+    display: block;
+    opacity: 1;
+    background: linear-gradient(
+      to left,
+      #9356dc,
+      #b35cdc,
+      #cf64dc,
+      #e86edb,
+      #ff79da
+    );
+    background: -webkit-linear-gradient(
+      to left,
+      #9356dc,
+      #b35cdc,
+      #cf64dc,
+      #e86edb,
+      #ff79da
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+  }
+}

@@ -1,0 +1,34 @@
+@import "../abstracts/variables";
+.footer {
+  background-color: #353535;
+  padding: 20px;
+}
+
+.footer-container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.footer-logo {
+  font-family: $Shrikhand;
+  color: #fff;
+  padding-bottom: 12px;
+}
+
+.footer ul {
+  list-style: none;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #fff;
+  font-family: $roboto;
+}
+
+.footer li {
+  padding: 4px 0 4px 0;
+}
+
+.footer span {
+  padding-left: 6px;
+}
